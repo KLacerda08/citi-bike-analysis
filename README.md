@@ -16,12 +16,13 @@ Evaluate Citi Bike data for possible trends and improvements. Prepare a presenta
 https://public.tableau.com/shared/RN6957PP6?:display_count=y&:origin=viz_share_link  
 
 ## Data Sources
-Citi Bike background: https://en.wikipedia.org/wiki/Citi_Bike
+Citi Bike background: https://en.wikipedia.org/wiki/Citi_Bike  
 Citi Bike data: 
 * main page: https://www.citibikenyc.com/system-data 
 * zip files: https://s3.amazonaws.com/tripdata/index.html
 
 Monthly data from calendar year 2019 was selected to provide an analysis of Citi Bike usage throughout the five boroughs of New York City.  
+
 CSV files downloaded from the Citi Bike website were too large to upload to git hub without creating push issues. Tableau can be run from the csv files already
 created. However, if re-creation of these files is desired, prior to running the jupyter notebook data_cleanup.ipynb, execute the following steps: 
 
@@ -88,7 +89,7 @@ Data was further manipulated in Tableau as needed to create groups and calculate
 ![Title](images/user_type_sta.png)
 
 #### User Type 
-![Title](images/user_type.png)
+![Title](images/user_type_pie.png)
 
 #### Age by Station 
 ![Title](images/age_stations.png)
